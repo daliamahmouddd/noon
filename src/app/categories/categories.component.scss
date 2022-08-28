@@ -1,0 +1,16 @@
+.owl-sec{
+ margin-top: 2rem;
+ background-color: bisque;   
+ .imgCont{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ img{
+        border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    }
+}
+}

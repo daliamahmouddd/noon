@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <ng-container>
+                <div class="owl-sec">
+                    <owl-carousel-o [options]="customOptions">
+                        <ng-container>
+                            <!-- <div class="d-flex flex-row"> -->
+                            <ng-template carouselSlide *ngFor="let s of sliders">
+                                    <div class="imgCont">
+                                        <img src="{{'http://satafood.codesroots.com:3000/'}}{{s.photo}}" alt="" />
+                                        <p>{{s.name}}</p>
+                                    </div>
+                                </ng-template>
+                            <!-- </div> -->
+                        </ng-container>
+                    </owl-carousel-o>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+.header{
+    background-color: rgb(254, 238, 0);
+    position: relative;
+    z-index: 60;
+    .firstSec {
+        width: 100%;
+        max-width: 1920px;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        margin: 0px auto;
+        transition: padding 0.25s ease-in-out 0s;
+        .forDeskTop{
+            background-color: rgb(254, 238, 0);
+                display: flex; 
+                align-items: center;
+
+                #btn_logo {
+                    text-decoration: none;
+                    padding: 5px;
+                }
+                #searchBar{
+                    width: 50rem;
+                }
+                .signIn{
+                    border-left: 1px solid;
+                    border-right: 1px solid;
+                    padding: 5px;
+                }
+
+        }
+    }
+}
+
+@media screen and (max-width:425px) {
+    .header{
+        .firstSec{
+            .forDeskTop{
+                flex-direction: column;
+                #searchBar{
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+@media (min-width:426px) and (max-width:768px) {
+    .header{
+        .firstSec{
+            .forDeskTop{
+                #searchBar{
+                    width: auto;
+                }
+            }
+        }
+    }   
+}
+@media (min-width:426px) and (max-width:1024px) {
+    .header{
+        .firstSec{
+            .forDeskTop{
+                #searchBar{
+                    width: auto
+                }
+            }
+        }
+    }   
+}

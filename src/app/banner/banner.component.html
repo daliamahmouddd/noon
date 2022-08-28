@@ -1,0 +1,26 @@
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <div class="">
+        <img src="https://f.nooncdn.com/cms/pages/20220821/fff5c78eae66d907b1c21b7fe8086c9c/en_dk_eg-toggle-01.png" class="GetOffer">
+     </div>
+    </div>
+    <div class="col-12">
+      <ng-container>
+          <div class="owl-sec">
+              <owl-carousel-o [options]="customOptions">
+                  <ng-container>
+                      <ng-template carouselSlide *ngFor="let s of sliders">
+                          <div class="d-flex flex-row">
+                            <img src="{{'http://satafood.codesroots.com:3000/'}}{{s}}" alt="" />
+                          </div>
+                      </ng-template>
+                  </ng-container>
+              </owl-carousel-o>
+          </div>
+      </ng-container>
+  </div>
+  </div>
+</div>

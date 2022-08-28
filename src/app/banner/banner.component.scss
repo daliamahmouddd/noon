@@ -1,0 +1,36 @@
+.row{
+    .GetOffer{
+     width: 100%;   
+    }
+}
+
+::ng-deep .owl-theme .owl-nav .owl-next,
+::ng-deep .owl-theme .owl-nav .owl-prev {
+    background: transparent;
+}
+
+::ng-deep .row .prev {
+    position: absolute;
+    top: 47%;
+    left: 5.5%;
+    // transform: scale(-1);
+    background: transparent;
+    border-radius: 50%;
+    color: transparent;
+    img {
+        padding: 10px;
+    }
+}
+
+::ng-deep .row .nex {
+    position: absolute;
+    color: transparent;
+    top: 47%;
+    right: 2.5%;
+    background: transparent;
+    border-radius: 50%;
+    img {
+        padding: 10px;
+    }
+    //
+}
